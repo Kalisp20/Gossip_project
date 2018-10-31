@@ -1,7 +1,30 @@
-<div class="center jumbotron">
-  <h1>Bienvenue !</h1>
-  <h3>
-    Ici, tu peux retrouver les moussaillons 🎓
-  </h3>
-  <%= link_to "Enregistre-toi !", '#', class: "btn btn-lg btn-primary" %>
-</div
+
+
+<body class="text-center">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+ 
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Bienvenue !</h1>
+        <p class="lead">Ici, tu peux retrouver les moussaillons 🎓</p>
+        <p class="lead">
+         <%= link_to "Enregistre-toi !", '/gossips/new', class: "btn btn-lg btn-primary" %>  
+        </p>
+      </main>
+
+
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  
+
+</body>

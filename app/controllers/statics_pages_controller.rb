@@ -3,7 +3,10 @@ class StaticsPagesController < ApplicationController
         
     end
     def new
+        @gossip = Gossip.create.save
+       
     end
-    def create
-    end
+    def create 
+         Gossip.update_all
+       end
 end
